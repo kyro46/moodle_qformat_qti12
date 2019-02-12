@@ -15,14 +15,17 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qformat_qti12', language 'en'.
- *
  * @package   qformat_qti12
  * @author    Christoph Jobst <cjobst@wifa.uni-leipzig.de>
  * @copyright 2019, University Leipzig
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['pluginname'] = 'IMS QTI 1.2 format (ILIAS)';
-$string['pluginname_help'] = 'Imports supported questions from the QTI 1.2 (ILIAS) format and converts them into the Moodle equivalent.';
-$string['unknownquestiontype'] = 'Question type {$a} is not supported by this version of the QTI 1.2 (ILIAS) import';
+defined('MOODLE_INTERNAL') || die();
+
+$plugin->component = 'qformat_qti12';
+
+$plugin->version    = 2019021200;
+$plugin->requires   = 2018051704; // 3.5.4
+$plugin->release    = '0.1dev (Build: 20190212)';
+$plugin->maturity   = MATURITY_ALPHA;

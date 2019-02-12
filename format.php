@@ -15,14 +15,16 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qformat_qti12', language 'en'.
+ * Code for importing IMS QTI 1.2 questions into Moodle.
  *
  * @package   qformat_qti12
  * @author    Christoph Jobst <cjobst@wifa.uni-leipzig.de>
  * @copyright 2019, University Leipzig
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'IMS QTI 1.2 format (ILIAS)';
-$string['pluginname_help'] = 'Imports supported questions from the QTI 1.2 (ILIAS) format and converts them into the Moodle equivalent.';
-$string['unknownquestiontype'] = 'Question type {$a} is not supported by this version of the QTI 1.2 (ILIAS) import';
+class qformat_qti12 extends qformat_default {
+	
+	
+}
