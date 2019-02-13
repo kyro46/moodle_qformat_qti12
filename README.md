@@ -3,7 +3,7 @@ Import questions with the IMS QTI 1.2 format into moodle. Tested with questionpo
 
 ## Supported questiontypes ##
 
-* Single Choice
+* Single Choice (without pictures yet & only the highest graded option will keep its grade)
 
 ### Mapping for Single Choice ###
 

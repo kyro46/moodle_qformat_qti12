@@ -26,3 +26,5 @@
 $string['pluginname'] = 'IMS QTI 1.2 format (ILIAS)';
 $string['pluginname_help'] = 'Imports supported questions from the QTI 1.2 (ILIAS) format and converts them into the Moodle equivalent.';
 $string['unknownquestiontype'] = 'Question type {$a} is not supported by this version of the QTI 1.2 (ILIAS) import';
+$string['errorreadxml'] = 'Error while parsing the IMS QTI 1.2 XML document';
+$string['contenttypenotset'] = 'Contenttype of text not set - interpreting as plain text';
